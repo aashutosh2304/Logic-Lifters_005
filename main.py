@@ -5,7 +5,7 @@ import plotly.express as px
 
 # changing the layout of streamlit
 st.set_page_config(layout="wide")
-st.sidebar.image("Screenshot 2024-08-27 194014.png")
+st.sidebar.image("logo.png")
 # Load Crime data
 data = pd.read_csv("cleaned_data.csv")
 
